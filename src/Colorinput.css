@@ -1,0 +1,20 @@
+.colorInput{
+    margin-top: 1rem;
+    width: 25rem;
+    height: 3rem;
+}
+
+#addColor{
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 0.2rem;
+    font: inherit;
+    padding-left: 0.5rem;
+}
+
+#addColor:focus {
+    outline: none;
+    filter: brightness(1.2);
+   }

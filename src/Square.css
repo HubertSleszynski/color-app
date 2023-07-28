@@ -1,0 +1,18 @@
+.square{
+    height: 25rem;
+    width: 25rem;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.square:hover{
+    cursor: pointer;
+    filter: brightness(1.2);
+}
+
